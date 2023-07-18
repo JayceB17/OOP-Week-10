@@ -1,19 +1,26 @@
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.18.2",
-        "inquirer": "^8.2.4",
-        "svg": "^0.1.0"
-    },
-    "devDependencies": {
-        "jest": "^29.5.0"
-    }
+  "name": "svg",
+  "version": "1.0.0",
+  "description": "square",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jayce",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "svg": "^0.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "OOP-Week-10"
+  },
+  "keywords": [
+    "assets"
+  ]
 }

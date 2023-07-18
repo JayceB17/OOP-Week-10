@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { Square, Triangle, Circle } = require('./lib/shapes.js');
-const shape = require('./lib/shapes.js');
+const { Square, Triangle, Circle } = require('./shape/shapes.js');
+const shape = require('./shape/shapes.js');
 
 
 class SVG {
@@ -44,9 +44,9 @@ const questions = [
         name: "shapes",
         message: "Choose shape for logo:",
         choices: [
-            "circle",
             "square",
             "triangle",
+            "circle",
         ]
     },
     {
