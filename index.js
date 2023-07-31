@@ -98,6 +98,7 @@ function init() {
     inquirer.prompt(questions).then(function (data) {
         var fileName = 'logo.svg';
         writeToFile(fileName, data);
+        console.log(data)
     });
 }
 
