@@ -20,7 +20,7 @@ Deployment
 https://github.com/JayceB17/OOP-Week-10
 
 Screenshots
-https://drive.google.com/file/d/1XaVeqL3QdoxclcUL_mXO8IkO-Wsnj-D5/view
+
 
 Table of Contents
 -Installation
